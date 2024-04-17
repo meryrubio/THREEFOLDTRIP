@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,1687 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: FichaNexus (1)_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 129
+        width: 93
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4a6770c4c592a4e8f19a097ad89889
+      internalID: -462250520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 132
+        width: 76
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72db4457ebbbf2c4faa800f6ba1e4e86
+      internalID: -808791555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_2
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 131
+        width: 101
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd5d4af639a4534f9874e9e13248e10
+      internalID: -926752718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_3
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 131
+        width: 74
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c0338e82e1ca740af3d0cbc15aca0c
+      internalID: 1922564725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_4
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 129
+        width: 66
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ad6bb22616bd340a7e3e09b7090544
+      internalID: -994251892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_5
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 124
+        width: 114
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199db545c73cf8943a722f7e9569a633
+      internalID: 1591002095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_6
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 191
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afec616864deba4b962c2bae7bd6d4b
+      internalID: 1206243905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_7
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 140
+        width: 69
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25d5eccab534294d8df025c4c6d2f0d
+      internalID: 1858701091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_8
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 139
+        width: 96
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f5a1640ee7a094abe8f1a398edc8f9
+      internalID: -1658756013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_9
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 120
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259575a889622c8449d67cffe13d3a55
+      internalID: -879431912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_10
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 120
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60db0c1cc0d4ca245930560b40d7acfe
+      internalID: 1480670727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_11
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 120
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab2f74fc68d14743b9932a4a94e4729
+      internalID: 1578282544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_12
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 120
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c074f0e79753d14fa5436f6651986b4
+      internalID: 162538437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_13
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 120
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b611dc00773580d48a2f554febaef3c3
+      internalID: -1115709330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_14
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7d1f01096901d4c92eb304490912ca
+      internalID: -1706286670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_15
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 120
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063e7fd02af7e5f43a3770faf559ad6e
+      internalID: 1530684026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_16
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 120
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 612c0e66c0c77ba47948d2eb406c492f
+      internalID: 703337181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 117
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7478ef519cb09041b7e34bf85ec83a4
+      internalID: -1341338838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_18
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 120
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faed878af9323c242a922140225f3d7f
+      internalID: -749795660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_19
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 120
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5bf6468e854b04da9ea25b32d00500
+      internalID: -413063680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_20
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 120
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37221c6250bd0994ca41aae9aa5cddd3
+      internalID: -1617735580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_21
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 120
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a5b8cee59092b458e93486babb7bef
+      internalID: -1225046272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_22
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 120
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4ff0ca48ec48e4297b1ceaac7a9584
+      internalID: 597590785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_23
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 120
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4852a35d6c3a3e4b9b542b7fb0e877c
+      internalID: -2069439012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_24
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015bdfb441e8df94783257da1eff47ba
+      internalID: -1023575882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_25
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 120
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac61a0d74909604c9069c2e63a71b23
+      internalID: 847445047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_26
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 120
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbcc9cfac4e7d24e9b09a28ab73ed27
+      internalID: 1150793658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_27
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 120
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6cdad37724b914c9d8a05741ec3a78
+      internalID: 1181997179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_28
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 117
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee640baae7dde94b81ebb5ccf8f1a90
+      internalID: 1790650978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_29
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 120
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac52d8f6a1fdb1d42a24141f53165762
+      internalID: -1042071513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_30
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 101
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f711f9627d83e840bd1aa83d13214fd
+      internalID: -315488714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_31
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 101
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a56f66b46a3504cb54687b59409cf8
+      internalID: 1015450290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_32
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 101
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052d914d55dd64c4bbd89deec3863d68
+      internalID: -715394226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_33
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 101
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bec6565a7d65f48a3e930af8d72497
+      internalID: 242731101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_34
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 101
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c3cab61a6b14344aab376d1af17657
+      internalID: 1558227440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_35
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 101
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897dd0965533cef46ad4f75a86ad5b98
+      internalID: 664755083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_36
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 101
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c86773ea8a51641b0cb4c24ce2cf80
+      internalID: -784139765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_37
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 101
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafdf39b4f32cea46858324741ad09c9
+      internalID: -2095706814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_38
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 99
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77691227c2f227f4d95b9d6d7598e472
+      internalID: -1554054791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_39
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 101
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b547d66e168a894f92878d31de4d7a3
+      internalID: -588386575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_40
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 101
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad10f9c3c9864d4b8dafd700a4bc1cd
+      internalID: 365965203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_41
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 101
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c609937d81d5f4ea7658e0f7444a61
+      internalID: -1270927010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_42
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 101
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91707d047ab702f45aad3f254184b33c
+      internalID: 853361223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_43
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fbacb6330762a4f8e16e6263555534
+      internalID: -1256453389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_44
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 101
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2c451b6ff09b1439421e0fedc7e46c
+      internalID: -588479933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_45
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 79
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a35fb5686de51543a5b6ad32e702bd2
+      internalID: -1103173503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_46
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 81
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca56d523e1463064686dc79806167f85
+      internalID: -1885189396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_47
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 81
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9927dd7c038e41c44810d861ce234b77
+      internalID: -600948195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_48
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 81
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3eb034a4fd25f45bce35f8948454a0
+      internalID: -1575533275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_49
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 81
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b108bb9a10fc7bb4f87a38a4e466992e
+      internalID: -728825093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_50
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5578464c42b9bef42ac9835d078c65c2
+      internalID: -50648889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_51
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 81
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a00c21c371aef447b0610b2cbc046ed
+      internalID: -1268225791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_52
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 81
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50db11b5bd560d4eaa252a012104af1
+      internalID: -714914044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_53
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 81
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2228d4e9994c0b24c83f19e51700ca47
+      internalID: -1830712898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_54
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 81
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7ca55e874063a43bf11cb143160217
+      internalID: 806983675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_55
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 82
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499a50625318f854dbc370f0604d2e30
+      internalID: -38639930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_56
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 82
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449aa3c2567042e4e9426e4f393192e2
+      internalID: -917004556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_57
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 82
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70f1a24d429d1146a44c4c1e8cb82fc
+      internalID: -1962377164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_58
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 82
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cb5818c27c2b242b0e6077a2abe575
+      internalID: -106556295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_59
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 82
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e428f1473b2f945a49542982ee67a3
+      internalID: 944247194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_60
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 82
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102d1a73eb75cba41ae8341e6fb43b69
+      internalID: -1682087736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_61
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 82
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685cd840ed12ef041bc75d6a15a6bc0d
+      internalID: -1073069764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_62
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 82
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c07d84809bf5e04d87abc54cfb0b709
+      internalID: 544133747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_63
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 82
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf58f0d972ad5a4c90dcd06fc100722
+      internalID: -120093876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_64
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39113578025b4db4a930a84d423934a3
+      internalID: -1586586215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_65
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 62
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c638658ceb8debb47b7dcb6dfb2c7350
+      internalID: 873062582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_66
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 62
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef93194f752d48d4e968a32d65b1c2f5
+      internalID: 154862417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_67
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 62
+        width: 21
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f59ea43cc9d5cd4cab3995dc84c971e
+      internalID: -660453770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_68
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 59
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd033a979791b049ace55c862df36b5
+      internalID: 82390975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_69
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d0241677a2bed48b8ba16dfd01fd25
+      internalID: 1491071785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_70
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 62
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81fef4282374984c8b2cb2b3aa0711a
+      internalID: -30483416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_71
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 62
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f066256f8e580488592e064bf23813
+      internalID: 91821171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_72
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 62
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50214d62db6f9474882de0ca3392cd6d
+      internalID: -1364111929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_73
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 60
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785b558362195ee42b97ab409f2a22a9
+      internalID: -1893281770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_74
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 63
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b9cdbff2bfc80439136d32c3244d13
+      internalID: -1398026919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_75
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 60
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02c3ee25037f274eb837220ab6b2ce2
+      internalID: -1442876261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_76
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 63
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437bcfab1f11f854caebcbec4c413b94
+      internalID: -1826696163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_77
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 63
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdd34901cd9be145b705c06297775f9
+      internalID: -911976347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_78
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 63
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36991f51fc3af4c4cbe7123101c31e11
+      internalID: -875765484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FichaNexus (1)_79
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 61
+        width: 4
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172e381245bf0f848a3b4dc1db38b473
+      internalID: 1117239140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +1812,87 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FichaNexus (1)_0: -462250520
+      FichaNexus (1)_1: -808791555
+      FichaNexus (1)_10: 1480670727
+      FichaNexus (1)_11: 1578282544
+      FichaNexus (1)_12: 162538437
+      FichaNexus (1)_13: -1115709330
+      FichaNexus (1)_14: -1706286670
+      FichaNexus (1)_15: 1530684026
+      FichaNexus (1)_16: 703337181
+      FichaNexus (1)_17: -1341338838
+      FichaNexus (1)_18: -749795660
+      FichaNexus (1)_19: -413063680
+      FichaNexus (1)_2: -926752718
+      FichaNexus (1)_20: -1617735580
+      FichaNexus (1)_21: -1225046272
+      FichaNexus (1)_22: 597590785
+      FichaNexus (1)_23: -2069439012
+      FichaNexus (1)_24: -1023575882
+      FichaNexus (1)_25: 847445047
+      FichaNexus (1)_26: 1150793658
+      FichaNexus (1)_27: 1181997179
+      FichaNexus (1)_28: 1790650978
+      FichaNexus (1)_29: -1042071513
+      FichaNexus (1)_3: 1922564725
+      FichaNexus (1)_30: -315488714
+      FichaNexus (1)_31: 1015450290
+      FichaNexus (1)_32: -715394226
+      FichaNexus (1)_33: 242731101
+      FichaNexus (1)_34: 1558227440
+      FichaNexus (1)_35: 664755083
+      FichaNexus (1)_36: -784139765
+      FichaNexus (1)_37: -2095706814
+      FichaNexus (1)_38: -1554054791
+      FichaNexus (1)_39: -588386575
+      FichaNexus (1)_4: -994251892
+      FichaNexus (1)_40: 365965203
+      FichaNexus (1)_41: -1270927010
+      FichaNexus (1)_42: 853361223
+      FichaNexus (1)_43: -1256453389
+      FichaNexus (1)_44: -588479933
+      FichaNexus (1)_45: -1103173503
+      FichaNexus (1)_46: -1885189396
+      FichaNexus (1)_47: -600948195
+      FichaNexus (1)_48: -1575533275
+      FichaNexus (1)_49: -728825093
+      FichaNexus (1)_5: 1591002095
+      FichaNexus (1)_50: -50648889
+      FichaNexus (1)_51: -1268225791
+      FichaNexus (1)_52: -714914044
+      FichaNexus (1)_53: -1830712898
+      FichaNexus (1)_54: 806983675
+      FichaNexus (1)_55: -38639930
+      FichaNexus (1)_56: -917004556
+      FichaNexus (1)_57: -1962377164
+      FichaNexus (1)_58: -106556295
+      FichaNexus (1)_59: 944247194
+      FichaNexus (1)_6: 1206243905
+      FichaNexus (1)_60: -1682087736
+      FichaNexus (1)_61: -1073069764
+      FichaNexus (1)_62: 544133747
+      FichaNexus (1)_63: -120093876
+      FichaNexus (1)_64: -1586586215
+      FichaNexus (1)_65: 873062582
+      FichaNexus (1)_66: 154862417
+      FichaNexus (1)_67: -660453770
+      FichaNexus (1)_68: 82390975
+      FichaNexus (1)_69: 1491071785
+      FichaNexus (1)_7: 1858701091
+      FichaNexus (1)_70: -30483416
+      FichaNexus (1)_71: 91821171
+      FichaNexus (1)_72: -1364111929
+      FichaNexus (1)_73: -1893281770
+      FichaNexus (1)_74: -1398026919
+      FichaNexus (1)_75: -1442876261
+      FichaNexus (1)_76: -1826696163
+      FichaNexus (1)_77: -911976347
+      FichaNexus (1)_78: -875765484
+      FichaNexus (1)_79: 1117239140
+      FichaNexus (1)_8: -1658756013
+      FichaNexus (1)_9: -879431912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -8,10 +8,13 @@ public class Character : MonoBehaviour
 
     private bool isJumping = false;
     private Rigidbody2D _rb;
+    private Animator _animator;
+
     // Start is called before the first frame update
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -31,10 +34,15 @@ public class Character : MonoBehaviour
 
         if (isJumping && grnd)//hace que salte
         {
+            _animator.Play("jumpAnimation");
+            
+
             _rb.velocity = new Vector2(_rb.velocity.x, 0);
             _rb.AddForce(Vector2.up * jumpForce * _rb.gravityScale * _rb.drag, ForceMode2D.Impulse);
         }
         isJumping = false;
+
+        _animator.SetBool("isGrounded", grnd);
     }
 
     private bool IsGrounded()//se pone un laser desde el personaje hacia abajo y va a detectar la mascara de colisiones que hemos establecido(suelo)

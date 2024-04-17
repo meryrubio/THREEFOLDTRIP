@@ -6,6 +6,7 @@ public class Xander : Character
 {
     private SpriteRenderer _rend;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,10 @@ public class Xander : Character
     // Update is called once per frame
     void Update()
     {
-        
+        //if (Input.GetButtonDown)
+        //{
+        //    StartCoroutine(FadeOut());
+        //}
     }
 
     IEnumerator FadeOut() // para que el objeto desaparezca poco a poco 
@@ -40,6 +44,6 @@ public class Xander : Character
             _rend.color = color;
             yield return new WaitForSeconds(0.02f); //devuelve el control a unity esos 0.2 segundos
         }
-        StartCoroutine(FadeOut());
+        
     }
 }
