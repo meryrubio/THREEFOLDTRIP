@@ -1,40 +1,55 @@
 using System.Collections;
 using System.Collections.Generic;
+using ThreefoldTrip;
+using UnityEditor.Animations;
 using UnityEngine;
 
-public class Nexus : Character
+namespace ThreefoldTrip
 {
-    //public AudioClip wicthClip;
-    public float timeScale;
-    //public float volume;
-    //AudioSource audioSource;
-
-
-    void Start()
+    public class Nexus : Character
     {
-        //audioSource = GetComponent<AudioSource>();
-    }
+        //public AudioClip wicthClip;
+        public float timeScale;
+
+        public Nexus(float speed, Rigidbody2D rb) : base(speed, rb, Resources.Load<Sprite>("sprites/FichaNexus (1)"), Resources.Load<AnimatorController>("sprites/animations/nexus/Idlenexus_0"))
+        {
+        }
+
+        public override void Skill()
+        {
+            Debug.Log("soy nexus");
+        }
+
+        //public float volume;
+        //AudioSource audioSource;
 
 
-    // Update is called once per frame
-    void Update()
-    {
-    //    if (Input.GetButtonDown)
-    //    {
-    //        AudioSource src = AudioManager.instance.PlayAudio(wicthClip, "wicthSound");
-    //        StartCoroutine(PlayAudio(src));
-    //    }
+        void Start()
+        {
+            //audioSource = GetComponent<AudioSource>();
+        }
 
 
-    //}
-    //IEnumerator PlayAudio(AudioSource wicthClip)
-    //{
-    //    Time.timeScale = 0.25f;
-    //    while (wicthClip && wicthClip.isPlaying)
-    //    {
-    //        yield return null;
-    //    }
+        // Update is called once per frame
+        void Update()
+        {
+            //    if (Input.GetButtonDown)
+            //    {
+            //        AudioSource src = AudioManager.instance.PlayAudio(wicthClip, "wicthSound");
+            //        StartCoroutine(PlayAudio(src));
+            //    }
 
-    //    Time.timeScale = 1f;
+
+            //}
+            //IEnumerator PlayAudio(AudioSource wicthClip)
+            //{
+            //    Time.timeScale = 0.25f;
+            //    while (wicthClip && wicthClip.isPlaying)
+            //    {
+            //        yield return null;
+            //    }
+
+            //    Time.timeScale = 1f;
+        }
     }
 }

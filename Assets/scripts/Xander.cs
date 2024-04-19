@@ -1,49 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using ThreefoldTrip;
+using UnityEditor.Animations;
 using UnityEngine;
 
 public class Xander : Character
 {
-    private SpriteRenderer _rend;
-
-
-    // Start is called before the first frame update
-    void Start()
+    public Xander(float speed, Rigidbody2D rb) : base(speed, rb, Resources.Load<Sprite>("sprites/XanderSpriteSheet"), Resources.Load<AnimatorController>("sprites/animations/xander/XanderSpriteSheet_0"))
     {
-        _rend = GetComponent<SpriteRenderer>();
-        StartCoroutine(FadeOut());
     }
 
-    // Update is called once per frame
-    void Update()
+    public override void Skill()
     {
-        //if (Input.GetButtonDown)
-        //{
-        //    StartCoroutine(FadeOut());
-        //}
-    }
-
-    IEnumerator FadeOut() // para que el objeto desaparezca poco a poco 
-    {
-        Color color = _rend.color; // para guardarnos los parametros del color original de objeto 
-        for (float alpha = 1.0f; alpha >= 0; alpha -= 0.01f) //para que el alpha se vaya reduciendo poco a poco.
-        {
-            color.a = alpha;
-            _rend.color = color;
-            yield return new WaitForSeconds(0.02f); //devuelve el control a unity esos 0.2 segundos
-        }
-        StartCoroutine(FadeIn());
-    }
-
-    IEnumerator FadeIn() // para que el objeto aparezca poco a poco 
-    {
-        Color color = _rend.color; // para guardarnos los parametros del color original de objeto 
-        for (float alpha = 0f; alpha <= 1; alpha += 0.01f) //para que el alpha se vaya aumentando poco a poco.
-        {
-            color.a = alpha;
-            _rend.color = color;
-            yield return new WaitForSeconds(0.02f); //devuelve el control a unity esos 0.2 segundos
-        }
-        
+        throw new System.NotImplementedException();
     }
 }

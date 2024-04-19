@@ -3224,6 +3224,8 @@ MonoBehaviour:
   speed: 5
   rayDistance: 0.64
   jumpForce: 3
+  isJumping: 0
+  _rb: {fileID: 0}
 --- !u!61 &763594050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3308,9 +3310,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f7b41492e44f746a0d53bb3b5fedb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  rayDistance: 0
-  jumpForce: 0
 --- !u!1001 &764570605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3378,10 +3377,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1200549882}
   - component: {fileID: 1200549881}
-  - component: {fileID: 1200549880}
   - component: {fileID: 1200549883}
   - component: {fileID: 1200549885}
   - component: {fileID: 1200549884}
+  - component: {fileID: 1200549886}
   m_Layer: 0
   m_Name: Astra andando_0
   m_TagString: Untagged
@@ -3389,21 +3388,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1200549880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1200549878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2438b907de92d2448e4571483513362, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  rayDistance: 0.64
-  jumpForce: 3
 --- !u!212 &1200549881
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3564,6 +3548,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6, y: 0.77}
   m_EdgeRadius: 0
+--- !u!114 &1200549886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200549878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa726bca1eb60fd4b93a59ddfdd1378a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!1 &1515932304
 GameObject:
   m_ObjectHideFlags: 0
