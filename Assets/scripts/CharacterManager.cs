@@ -9,8 +9,8 @@ public class CharacterManager : MonoBehaviour
 
     private bool isJumping = false;
 
-    ThreefoldTrip.Character character;
-    SpriteRenderer rend;
+    protected ThreefoldTrip.Character character;
+    protected SpriteRenderer rend;
     Animator animator;
     // Start is called before the first frame update
     void Start()
@@ -20,7 +20,7 @@ public class CharacterManager : MonoBehaviour
 
         int rnd = Random.Range(0, 2);
 
-        if(rnd == 0)
+        if (rnd == 0)
             character = new ThreefoldTrip.Astra(speed, GetComponent<Rigidbody2D>());
         else
             character = new ThreefoldTrip.Nexus(speed, GetComponent<Rigidbody2D>());
@@ -29,11 +29,26 @@ public class CharacterManager : MonoBehaviour
         animator.runtimeAnimatorController = character.GetAnimatorController();
         character.rayDistance = RayDistance;
     }
+    public void Astra()
+    {
+        character = new ThreefoldTrip.Astra(speed, GetComponent<Rigidbody2D>());
+        rend.sprite = character.GetSprite();
+        animator.runtimeAnimatorController = character.GetAnimatorController();
+        character.rayDistance = RayDistance;
+    }
+    public void Nexus()
+    {
+        character = new ThreefoldTrip.Nexus(speed, GetComponent<Rigidbody2D>());
+    }
+    //public void Shander()
+    //{
+    //    character = new ThreefoldTrip.Shander(speed, GetComponent<Rigidbody2D>());
+    //}
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             character.Skill();
         }
@@ -42,17 +57,17 @@ public class CharacterManager : MonoBehaviour
         {
             isJumping = true;
         }
-        
+
     }
 
     private void FixedUpdate()
     {
         character.Run();
 
-        if(isJumping)
+        if (isJumping)
             character.Jump(transform);
         else
-            isJumping =false;
+            isJumping = false;
     }
     private void OnDrawGizmos()
     {
