@@ -18,12 +18,12 @@ public class CharacterManager : MonoBehaviour
         rend = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
 
-        //int rnd = Random.Range(0, 2);
+        int rnd = Random.Range(0, 2);
 
-        //if(rnd == 0)
-        //    character = new ThreefoldTrip.Astra(speed, GetComponent<Rigidbody2D>());
-        //else
-        //    character = new ThreefoldTrip.Nexus(speed, GetComponent<Rigidbody2D>());
+        if(rnd == 0)
+          character = new ThreefoldTrip.Astra(speed, GetComponent<Rigidbody2D>());
+        else
+           character = new ThreefoldTrip.Nexus(speed, GetComponent<Rigidbody2D>());
 
         rend.sprite = character.GetSprite();
         animator.runtimeAnimatorController = character.GetAnimatorController();
