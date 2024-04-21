@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
     private float time;
     private int points;
 
+  
+
 
     private void Awake()
     {
@@ -67,8 +69,12 @@ public class GameManager : MonoBehaviour
     //callback -- funcion que se va  a llamar en el onclick() de los botones
     public void LoadScene(string sceneName)
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene("Nivel");
        /* AudioManager.instance.ClearAudios();*/ // oye, audioManager, limpia todos los sonidos que estan sonando
+    }
+    public void LoadCharacter(string CharacterName)
+    {
+        PlayerPrefs.SetString("PersonajeSeleccionado", CharacterName);
     }
 
     public void ExitGame()
@@ -77,4 +83,11 @@ public class GameManager : MonoBehaviour
         Application.Quit();// cierra la aplicación
     }
     //EventSystem detecta los clicks
+
+    //public void LoadScene(string sceneName)
+    //{
+    //    PlayerPrefs.SetString("PersonajeSeleccionado", CharacterName);
+    //    SceneManager.LoadScene(sceneName);
+    //    /* AudioManager.instance.ClearAudios();*/ // oye, audioManager, limpia todos los sonidos que estan sonando
+    //}
 }
