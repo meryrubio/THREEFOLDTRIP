@@ -21,9 +21,9 @@ public class CharacterManager : MonoBehaviour
         int rnd = Random.Range(0, 2);
 
         if (rnd == 0)
-            character = new ThreefoldTrip.Astra(speed, GetComponent<Rigidbody2D>());
+            character = new ThreefoldTrip.Xander(speed, GetComponent<Rigidbody2D>());
         else
-            character = new ThreefoldTrip.Nexus(speed, GetComponent<Rigidbody2D>());
+            character = new ThreefoldTrip.Xander(speed, GetComponent<Rigidbody2D>());
 
         rend.sprite = character.GetSprite();
         animator.runtimeAnimatorController = character.GetAnimatorController();
