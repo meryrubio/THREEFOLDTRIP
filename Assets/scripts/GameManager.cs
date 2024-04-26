@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
+[System.Serializable]
+public enum ThreeFoldCharacters //tipo enumerado, le puede poner nombres a los numeros: el 0=nexus, 1= astra, 2=xander.
+{
+    NEXUS, ASTRA, XANDER
+}
 
 public class GameManager : MonoBehaviour
 {
@@ -15,7 +20,8 @@ public class GameManager : MonoBehaviour
     private float time;
     private int points;
 
-  
+    [HideInInspector]
+    public ThreeFoldCharacters characterType; //variable para los personajes, sea posible elegir el tipo de personaje
 
 
     private void Awake()
@@ -69,25 +75,15 @@ public class GameManager : MonoBehaviour
     //callback -- funcion que se va  a llamar en el onclick() de los botones
     public void LoadScene(string sceneName)
     {
-        SceneManager.LoadScene("Nivel");
+        SceneManager.LoadScene(sceneName);
        /* AudioManager.instance.ClearAudios();*/ // oye, audioManager, limpia todos los sonidos que estan sonando
     }
-    public void LoadCharacter(string CharacterName)
-    {
-        PlayerPrefs.SetString("PersonajeSeleccionado", CharacterName);
-    }
+
 
     public void ExitGame()
     {
         Debug.Log("EXIT!!");
         Application.Quit();// cierra la aplicación
     }
-    //EventSystem detecta los clicks
 
-    //public void LoadScene(string sceneName)
-    //{
-    //    PlayerPrefs.SetString("PersonajeSeleccionado", CharacterName);
-    //    SceneManager.LoadScene(sceneName);
-    //    /* AudioManager.instance.ClearAudios();*/ // oye, audioManager, limpia todos los sonidos que estan sonando
-    //}
 }
