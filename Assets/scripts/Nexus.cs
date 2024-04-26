@@ -31,25 +31,25 @@ namespace ThreefoldTrip
 
 
         // Update is called once per frame
-        void Update()
-        {
-            //    if (Input.GetButtonDown)
-            //    {
-            //        AudioSource src = AudioManager.instance.PlayAudio(wicthClip, "wicthSound");
-            //        StartCoroutine(PlayAudio(src));
-            //    }
+        //void Update()
+       // {
+                //if (Input.GetButtonDown)
+               // {
+                  //  AudioSource src = AudioManager.instance.PlayAudio(wicthClip, "wicthSound");
+                   // StartCoroutine(PlayAudio(src));
+               // }
 
 
-            //}
-            //IEnumerator PlayAudio(AudioSource wicthClip)
-            //{
-            //    Time.timeScale = 0.25f;
-            //    while (wicthClip && wicthClip.isPlaying)
-            //    {
-            //        yield return null;
-            //    }
+        // }
+           // IEnumerator PlayAudio(AudioSource wicthClip)
+           // {
+            //   Time.timeScale = 0.25f;
+              // while (wicthClip && wicthClip.isPlaying)
+             //  {
+                //   yield return null;
+              //  }
 
-            //    Time.timeScale = 1f;
-        }
+             //  Time.timeScale = 1f;
+       // }
     }
 }
