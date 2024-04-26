@@ -69,7 +69,7 @@ public class GameManager : MonoBehaviour
     //callback -- funcion que se va  a llamar en el onclick() de los botones
     public void LoadScene(string sceneName)
     {
-        SceneManager.LoadScene("Nivel");
+        SceneManager.LoadScene(sceneName);
        /* AudioManager.instance.ClearAudios();*/ // oye, audioManager, limpia todos los sonidos que estan sonando
     }
     public void LoadCharacter(string CharacterName)
