@@ -18,12 +18,20 @@ public class CharacterManager : MonoBehaviour
         rend = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
 
-        int rnd = Random.Range(0, 2);
+        //programamos un if para elegir para la funcion del boton para elegir el personaje
+        if (GameManager.instance.characterType == ThreeFoldCharacters.NEXUS)
+        {
+            character = new ThreefoldTrip.Nexus(speed, GetComponent<Rigidbody2D>());
+        }
+        else if (GameManager.instance.characterType == ThreeFoldCharacters.ASTRA)
+        {
+            character = new ThreefoldTrip.Astra(speed, GetComponent<Rigidbody2D>());
+        }
+        else if (GameManager.instance.characterType == ThreeFoldCharacters.XANDER)
+        {
+            character = new ThreefoldTrip.Xander(speed, GetComponent<Rigidbody2D>());
 
-        if(rnd == 0)
-          character = new ThreefoldTrip.Astra(speed, GetComponent<Rigidbody2D>());
-        else
-           character = new ThreefoldTrip.Nexus(speed, GetComponent<Rigidbody2D>());
+        }
 
         rend.sprite = character.GetSprite();
         animator.runtimeAnimatorController = character.GetAnimatorController();
@@ -33,7 +41,7 @@ public class CharacterManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             character.Skill();
         }
@@ -42,17 +50,17 @@ public class CharacterManager : MonoBehaviour
         {
             isJumping = true;
         }
-        
+
     }
 
     private void FixedUpdate()
     {
         character.Run();
 
-        if(isJumping)
+        if (isJumping)
             character.Jump(transform);
         else
-            isJumping =false;
+            isJumping = false;
     }
     private void OnDrawGizmos()
     {

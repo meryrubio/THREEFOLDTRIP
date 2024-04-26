@@ -11,10 +11,10 @@ public class ButtonFunctions : MonoBehaviour
         GameManager.instance.ExitGame();
     }
 
-    //public void LoadCharacter(string CharacterName)
-    //{
-    //    GameManager.instance.LoadCharacter(CharacterName);
-    //}
+    public void LoadCharacter(int CharacterName)
+    {
+        GameManager.instance.characterType = (ThreeFoldCharacters)CharacterName;
+    }
 
     public void LoadScene(string sceneName)
     {
