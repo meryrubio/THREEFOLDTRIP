@@ -33,13 +33,11 @@ namespace ThreefoldTrip
         {
             bool grnd = IsGrounded(transform);
 
-            if (isJumping && grnd)//hace que salte
+            if (grnd)//hace que salte
             {
                 _rb.velocity = new Vector2(_rb.velocity.x, 0);
                 _rb.AddForce(Vector2.up * jumpForce * _rb.gravityScale * _rb.drag, ForceMode2D.Impulse);
             }
-            isJumping = false;
-
         }
         private bool IsGrounded(UnityEngine.Transform transform)//se pone un laser desde el personaje hacia abajo y va a detectar la mascara de colisiones que hemos establecido(suelo)
         {
@@ -54,10 +52,12 @@ namespace ThreefoldTrip
                 }
             }
 
-            return false;  
+            return false;
         }
 
         public Sprite GetSprite() { return _sprite; }
+
+        public void SetJumpForce(float value) { jumpForce = value; }
 
         public AnimatorController GetAnimatorController() { return _controller; }
 

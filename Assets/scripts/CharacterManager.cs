@@ -5,8 +5,8 @@ using UnityEngine;
 public class CharacterManager : MonoBehaviour
 {
     public float speed;
-    private float RayDistance;
-
+    public float RayDistance;
+    public float JumpForce;
     private bool isJumping = false;
 
     ThreefoldTrip.Character character;
@@ -32,7 +32,7 @@ public class CharacterManager : MonoBehaviour
             character = new ThreefoldTrip.Xander(speed, GetComponent<Rigidbody2D>());
 
         }
-
+        character.SetJumpForce(JumpForce);
         rend.sprite = character.GetSprite();
         animator.runtimeAnimatorController = character.GetAnimatorController();
         character.rayDistance = RayDistance;
@@ -59,8 +59,7 @@ public class CharacterManager : MonoBehaviour
 
         if (isJumping)
             character.Jump(transform);
-        else
-            isJumping = false;
+        isJumping = false;
     }
     private void OnDrawGizmos()
     {
@@ -68,3 +67,4 @@ public class CharacterManager : MonoBehaviour
         Gizmos.DrawRay(transform.position, Vector2.down * RayDistance);
     }
 }
+//
