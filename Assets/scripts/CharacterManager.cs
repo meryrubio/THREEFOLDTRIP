@@ -9,8 +9,8 @@ public class CharacterManager : MonoBehaviour
     public float JumpForce;
     private bool isJumping = false;
 
-    ThreefoldTrip.Character character;
-    SpriteRenderer rend;
+    protected ThreefoldTrip.Character character;
+    protected SpriteRenderer rend;
     Animator animator;
     // Start is called before the first frame update
     void Start()
@@ -37,6 +37,21 @@ public class CharacterManager : MonoBehaviour
         animator.runtimeAnimatorController = character.GetAnimatorController();
         character.rayDistance = RayDistance;
     }
+    public void Astra()
+    {
+        character = new ThreefoldTrip.Astra(speed, GetComponent<Rigidbody2D>());
+        rend.sprite = character.GetSprite();
+        animator.runtimeAnimatorController = character.GetAnimatorController();
+        character.rayDistance = RayDistance;
+    }
+    public void Nexus()
+    {
+        character = new ThreefoldTrip.Nexus(speed, GetComponent<Rigidbody2D>());
+    }
+    //public void Shander()
+    //{
+    //    character = new ThreefoldTrip.Shander(speed, GetComponent<Rigidbody2D>());
+    //}
 
     // Update is called once per frame
     void Update()

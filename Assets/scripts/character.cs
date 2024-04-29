@@ -9,11 +9,18 @@ namespace ThreefoldTrip
     public abstract class Character
     {
         public float speed, rayDistance, jumpForce;
+        public int maxJump = 2;
 
         private bool isJumping = false;
-        protected Sprite _sprite;
-        private Rigidbody2D _rb;
         private AnimatorController _controller;
+        private int currentJumps = 0;
+        
+
+        protected Sprite _sprite;
+        protected Rigidbody2D _rb;
+        protected Color color;
+        //protected Vector2 _dir;
+        
 
         public Character(float speed, Rigidbody2D rb, Sprite sprite, AnimatorController cont)
         {
@@ -37,6 +44,7 @@ namespace ThreefoldTrip
             {
                 _rb.velocity = new Vector2(_rb.velocity.x, 0);
                 _rb.AddForce(Vector2.up * jumpForce * _rb.gravityScale * _rb.drag, ForceMode2D.Impulse);
+                currentJumps++;
             }
         }
         private bool IsGrounded(UnityEngine.Transform transform)//se pone un laser desde el personaje hacia abajo y va a detectar la mascara de colisiones que hemos establecido(suelo)
@@ -47,7 +55,7 @@ namespace ThreefoldTrip
             {
                 if (raycastHit.collider.gameObject.CompareTag("Suelo"))
                 {
-                    // currentJumps = 0;
+                    currentJumps = 0;
                     return true;
                 }
             }
