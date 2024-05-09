@@ -62,7 +62,10 @@ namespace ThreefoldTrip
 
             return false;
         }
+        public  virtual void Update()
+        {
 
+        }
         public Sprite GetSprite() { return _sprite; }
 
         public void SetJumpForce(float value) { jumpForce = value; }
@@ -71,4 +74,5 @@ namespace ThreefoldTrip
 
         public abstract void Skill();
     }
+
 }

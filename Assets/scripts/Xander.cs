@@ -13,8 +13,7 @@ namespace ThreefoldTrip
         private Color colors;
         private float maxTime = 4, currentTime = 0;
         private GameObject muroOff;
-        public float Cooldown = 4;
-
+        public float Cooldown= 4;
         public Xander(float speed, Rigidbody2D rb) : base(speed, rb, Resources.Load<Sprite>("sprites/XanderSpriteSheet"), Resources.Load<AnimatorController>("sprites/animations/xander/XanderSpriteSheet_0"))
         {
 
@@ -22,24 +21,26 @@ namespace ThreefoldTrip
 
         public override void Skill()
         {
-            SpriteRenderer spriteRenderer = _rb.gameObject.GetComponent<SpriteRenderer>();
-            spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, 0.5f);
-            _rb.gameObject.GetComponent<Collider2D>().enabled = false;
-            _rb.gravityScale = 0;
+            Invis(false);
+            currentTime = 0;
         }
-        public void Update(Rigidbody2D rb)  //no es override por ahora al no tener nada en update
+
+        public override void Update()
         {
-            //if (color.a == 0)
-            //    currentTime += Time.deltaTime;
+            currentTime += Time.deltaTime;
 
-            //if (currentTime >= maxTime)
-            //{
-            //    colors.a = 1f;
-            //    muroOff.GetComponent<muros>().enabled = true;
-            //    currentTime = 0;
-            //}
+            if (currentTime > maxTime)
+            {
+                Invis(true);
+            }
         }
 
-
+        private void Invis(bool hasFinished)
+        {
+            SpriteRenderer spriteRenderer = _rb.gameObject.GetComponent<SpriteRenderer>();
+            spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, hasFinished ? 1 : 0.5f);
+            _rb.gameObject.GetComponent<Collider2D>().enabled = hasFinished;
+            _rb.gravityScale = hasFinished ? 1 : 0;
+        }
     }
 }

@@ -56,6 +56,7 @@ public class CharacterManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        character.Update();
         if (Input.GetKeyDown(KeyCode.E))
         {
             character.Skill();
