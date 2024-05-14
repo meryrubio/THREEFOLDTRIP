@@ -69,7 +69,7 @@ public class CharacterManager : MonoBehaviour
 
     }
 
-    private void FixedUpdate()
+    private void FixedUpdate()//
     {
         character.Run();
 
