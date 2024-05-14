@@ -18,7 +18,7 @@ namespace ThreefoldTrip
         public Xander(float speed, Rigidbody2D rb) : base(speed, rb, Resources.Load<Sprite>("sprites/XanderSpriteSheet"), Resources.Load<AnimatorController>("sprites/animations/xander/XanderSpriteSheet_0"))
         {
             //contructor de xander segun la estructura del character
-            muros = GameObject.FindGameObjectsWithTag("muro");//aray que detecta a todos los muros
+            muros = GameObject.FindGameObjectsWithTag("muro");//array que busca los muros
         }
 
         public override void Skill()
@@ -42,7 +42,7 @@ namespace ThreefoldTrip
             SpriteRenderer spriteRenderer = _rb.gameObject.GetComponent<SpriteRenderer>();
             spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, hasFinished ? 1 : 0.5f);
             //_rb.gameObject.GetComponent<Collider2D>().enabled = hasFinished;
-            foreach(GameObject muro in muros)//busca en en layer muro y descubre cual es y lo detecta y si le pulsa la habilidad atraviesa el muro pero no el suelo
+            foreach(GameObject muro in muros)//recorre el array en en layer muro y descubre cual es y lo detecta y si le pulsa la habilidad atraviesa el muro pero no el suelo
             {
                 muro.GetComponent<Collider2D>().enabled = hasFinished;
             }
