@@ -13,16 +13,17 @@ namespace ThreefoldTrip
         private Color colors;
         private float maxTime = 4.75f, currentTime = 0;
         private GameObject[] muros;
-        public float Cooldown= 4;
+        public float Cooldown= 4;//tiempo que tarda en volver a poder utilizar la habilidad
 
         public Xander(float speed, Rigidbody2D rb) : base(speed, rb, Resources.Load<Sprite>("sprites/XanderSpriteSheet"), Resources.Load<AnimatorController>("sprites/animations/xander/XanderSpriteSheet_0"))
         {
+            //contructor de xander segun la estructura del character
             muros = GameObject.FindGameObjectsWithTag("muro");//aray que detecta a todos los muros
         }
 
         public override void Skill()
         {
-            Invis(false);
+            Invis(false); //metodo de invisibilidad
             currentTime = 0;
         }
 

@@ -17,7 +17,8 @@ public class Camera : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = FindObjectOfType<CharacterManager>().speed; 
+        //la camara es independiente 
+        speed = FindObjectOfType<CharacterManager>().speed;  
         _rb = GetComponent<Rigidbody2D>();
         _dir = new Vector2(1, 0);
     }
@@ -28,11 +29,7 @@ public class Camera : MonoBehaviour
         _rb.velocity = new Vector2(speed, 0) * _dir;
     }
 
-    void LateUpdate()
-    {
-        //// la camara se centrara automaticamente en el personaje (a 5 de velocidad) y si no esta centrada lo hara en el reinicio de la partida y siga al personaje en x
-        //transform.position = Vector3.MoveTowards(transform.position, new Vector3(player.position.x, transform.position.y, -3f), 3f * Time.deltaTime);
-    }
+   
 }
 
 
