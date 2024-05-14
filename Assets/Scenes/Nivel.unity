@@ -5161,6 +5161,7 @@ GameObject:
   - component: {fileID: 517611063}
   - component: {fileID: 517611062}
   - component: {fileID: 517611064}
+  - component: {fileID: 517611065}
   m_Layer: 0
   m_Name: qzkpthkpayz51
   m_TagString: Untagged
@@ -5264,10 +5265,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.08314991, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5278,8 +5279,21 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.13, y: 8.43}
+  m_Size: {x: 2.468515, y: 8.43}
   m_EdgeRadius: 0
+--- !u!114 &517611065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517611061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f295272236b48348b410e7bf1507bd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelToLoad: Win
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -5886,7 +5900,7 @@ Transform:
   m_GameObject: {fileID: 1200549878}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.57, y: -0.6, z: 0}
+  m_LocalPosition: {x: -4.621, y: -0.42, z: 0}
   m_LocalScale: {x: 0.83474684, y: 0.83474684, z: 0.83474684}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6010,6 +6024,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1265992135}
   - component: {fileID: 1265992134}
+  - component: {fileID: 1265992136}
+  - component: {fileID: 1265992138}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -6084,6 +6100,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1265992136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265992133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f295272236b48348b410e7bf1507bd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelToLoad: GameOver
+--- !u!61 &1265992138
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265992133}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.17745036}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.3549007}
+  m_EdgeRadius: 0
 --- !u!1001 &1420517755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6448,7 +6522,7 @@ GameObject:
   - component: {fileID: 1688947557}
   - component: {fileID: 1688947556}
   m_Layer: 0
-  m_Name: 8451c64c-2240-43b2-af32-34572a02cb42 (1)
+  m_Name: fondo_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6584,6 +6658,18 @@ PrefabInstance:
     - target: {fileID: 6827581115891065403, guid: decd44e24384bd44fbb67d9fa72a2def, type: 3}
       propertyPath: m_Name
       value: muro1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126530746767272565, guid: decd44e24384bd44fbb67d9fa72a2def, type: 3}
+      propertyPath: m_Color.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126530746767272565, guid: decd44e24384bd44fbb67d9fa72a2def, type: 3}
+      propertyPath: m_Color.g
+      value: 0.3764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126530746767272565, guid: decd44e24384bd44fbb67d9fa72a2def, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6938,6 +7024,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: muro2
       objectReference: {fileID: 0}
+    - target: {fileID: 4085995075932921959, guid: e552573736fb12d4da29f1692ebcf240, type: 3}
+      propertyPath: m_Color.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 4085995075932921959, guid: e552573736fb12d4da29f1692ebcf240, type: 3}
+      propertyPath: m_Color.g
+      value: 0.3764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 4085995075932921959, guid: e552573736fb12d4da29f1692ebcf240, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6954,7 +7052,7 @@ GameObject:
   - component: {fileID: 2076385354}
   - component: {fileID: 2076385353}
   m_Layer: 0
-  m_Name: 8451c64c-2240-43b2-af32-34572a02cb42
+  m_Name: fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7086,6 +7184,18 @@ PrefabInstance:
     - target: {fileID: 314249998982875973, guid: cc9fd160db8a9c041bbe13668fb06497, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5514735466765867201, guid: cc9fd160db8a9c041bbe13668fb06497, type: 3}
+      propertyPath: m_Color.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5514735466765867201, guid: cc9fd160db8a9c041bbe13668fb06497, type: 3}
+      propertyPath: m_Color.g
+      value: 0.3764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 5514735466765867201, guid: cc9fd160db8a9c041bbe13668fb06497, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 8086592660539645963, guid: cc9fd160db8a9c041bbe13668fb06497, type: 3}
       propertyPath: m_Name

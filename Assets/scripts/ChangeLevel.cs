@@ -18,11 +18,11 @@ public class ChangeLevel : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //// Verifica si la colisión es con el esqueleto.
-        //if (collision.GetComponent<ThreeFoldCharacters>())
-        //{
-        //    // cambia la escena
-        //    GameManager.instance.LoadScene(levelToLoad);
-        //}
+        // Verifica si la colisión es con el esqueleto.
+        if (collision.GetComponent<CharacterManager>())
+        {
+            // cambia la escena
+            GameManager.instance.LoadScene(levelToLoad);
+        }
     }
 }
