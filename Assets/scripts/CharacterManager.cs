@@ -67,6 +67,15 @@ public class CharacterManager : MonoBehaviour
             isJumping = true;
         }
 
+        if(Input.GetKeyDown(KeyCode.S))
+        {
+            character.Crouch(true);
+        }
+        else if(Input.GetKeyUp(KeyCode.S))
+        {
+            character.Crouch(false);
+        }
+
     }
 
     private void FixedUpdate()
@@ -83,4 +92,3 @@ public class CharacterManager : MonoBehaviour
         Gizmos.DrawRay(transform.position, Vector2.down * RayDistance);
     }
 }
-//

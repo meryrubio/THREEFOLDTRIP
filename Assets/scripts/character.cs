@@ -10,11 +10,13 @@ namespace ThreefoldTrip
     {
         public float speed, rayDistance, jumpForce;
         public int maxJump = 2;
+        public KeyCode downKey;
 
         private bool isJumping = false;
         private AnimatorController _controller;
         private int currentJumps = 0;
-        
+        private Animator _animator;
+        //private BoxCollider2D bc;
 
         protected Sprite _sprite;
         protected Rigidbody2D _rb;
@@ -28,6 +30,7 @@ namespace ThreefoldTrip
             _rb = rb;
             _sprite = sprite;
             _controller = cont;
+
         }
 
         // this method should be called in FixedUpdate
@@ -73,6 +76,16 @@ namespace ThreefoldTrip
         public AnimatorController GetAnimatorController() { return _controller; }
 
         public abstract void Skill();
+
+        public void Crouch(bool isCrouching)
+        {
+            
+            BoxCollider2D bc = _rb.GetComponent<BoxCollider2D>();
+            bc.size = new Vector2(bc.size.x, isCrouching ? bc.size.y / 2 : bc.size.y * 2);
+            //  _animator.SetBool("agachar", true);
+            
+
+        }
     }
 
 }
