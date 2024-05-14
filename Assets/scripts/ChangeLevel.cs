@@ -22,7 +22,7 @@ public class ChangeLevel : MonoBehaviour
         if (collision.GetComponent<CharacterManager>())
         {
             // cambia la escena
-            GameManager.instance.LoadScene(levelToLoad);
+            GameManager.instance.LoadScene(levelToLoad); // carga la escena poniendo el nombre en el inspector
         }
     }
 }

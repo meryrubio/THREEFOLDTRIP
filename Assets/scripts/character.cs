@@ -4,7 +4,7 @@ using UnityEditor.Animations;
 using UnityEngine;
 using static UnityEngine.RuleTile.TilingRuleOutput;
 
-namespace ThreefoldTrip
+namespace ThreefoldTrip //crea un espacio de nombres para evitar la colision de nombres
 {
     public abstract class Character
     {
@@ -22,7 +22,7 @@ namespace ThreefoldTrip
         //protected Vector2 _dir;
         
 
-        public Character(float speed, Rigidbody2D rb, Sprite sprite, AnimatorController cont)
+        public Character(float speed, Rigidbody2D rb, Sprite sprite, AnimatorController cont) //constructor general de los personajes
         {
             this.speed = speed;
             _rb = rb;
@@ -43,7 +43,7 @@ namespace ThreefoldTrip
             if (grnd)//hace que salte
             {
                 _rb.velocity = new Vector2(_rb.velocity.x, 0);
-                _rb.AddForce(Vector2.up * jumpForce * _rb.gravityScale * _rb.drag, ForceMode2D.Impulse);
+                _rb.AddForce(Vector2.up * jumpForce * _rb.gravityScale * _rb.drag, ForceMode2D.Impulse); //fuerza de salto
                 currentJumps++;
             }
         }
@@ -53,7 +53,7 @@ namespace ThreefoldTrip
 
             foreach (RaycastHit2D raycastHit in collisions)
             {
-                if (raycastHit.collider.gameObject.CompareTag("Suelo"))
+                if (raycastHit.collider.gameObject.CompareTag("Suelo")) //decidimos que si el rayo choca con el suelo el personaje puede saltar
                 {
                     currentJumps = 0;
                     return true;
@@ -66,13 +66,13 @@ namespace ThreefoldTrip
         {
 
         }
-        public Sprite GetSprite() { return _sprite; }
+        public Sprite GetSprite() { return _sprite; } //se genere el sprite
 
-        public void SetJumpForce(float value) { jumpForce = value; }
+        public void SetJumpForce(float value) { jumpForce = value; } //otorgra la fuerza al salto
 
-        public AnimatorController GetAnimatorController() { return _controller; }
+        public AnimatorController GetAnimatorController() { return _controller; } //animaciones
 
-        public abstract void Skill();
+        public abstract void Skill(); //habilidades de los personajes
     }
 
 }

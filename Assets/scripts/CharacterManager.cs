@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//este es el script que controla al personaje (playermovement) que comunica con monobehaviour
 
 public class CharacterManager : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class CharacterManager : MonoBehaviour
     public float JumpForce;
     private bool isJumping = false;
 
-    protected ThreefoldTrip.Character character;
+    protected ThreefoldTrip.Character character; //variable protejida para los personajes
     protected SpriteRenderer rend;
     Animator animator;
     // Start is called before the first frame update
@@ -48,7 +49,7 @@ public class CharacterManager : MonoBehaviour
     {
         character = new ThreefoldTrip.Nexus(speed, GetComponent<Rigidbody2D>());
     }
-    //public void Shander()
+    //public void Xander()
     //{
     //    character = new ThreefoldTrip.Shander(speed, GetComponent<Rigidbody2D>());
     //}
@@ -56,6 +57,7 @@ public class CharacterManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //controles
         character.Update();
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -69,7 +71,7 @@ public class CharacterManager : MonoBehaviour
 
     }
 
-    private void FixedUpdate()
+    private void FixedUpdate() //salto
     {
         character.Run();
 
@@ -77,7 +79,7 @@ public class CharacterManager : MonoBehaviour
             character.Jump(transform);
         isJumping = false;
     }
-    private void OnDrawGizmos()
+    private void OnDrawGizmos() //rayo del salto
     {
         Gizmos.color = Color.green;
         Gizmos.DrawRay(transform.position, Vector2.down * RayDistance);

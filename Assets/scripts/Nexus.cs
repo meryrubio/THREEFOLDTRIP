@@ -10,6 +10,7 @@ namespace ThreefoldTrip
     {
         //public AudioClip wicthClip;
         public float timeScale;
+        private float maxTime = 4, currentTime = 0;
 
         public Nexus(float speed, Rigidbody2D rb) : base(speed, rb, Resources.Load<Sprite>("sprites/FichaNexus (1)"), Resources.Load<AnimatorController>("sprites/animations/nexus/FichaNexus (1)_0"))
         {

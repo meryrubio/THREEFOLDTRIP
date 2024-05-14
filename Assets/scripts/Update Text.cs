@@ -22,8 +22,8 @@ public class NewBehaviourScript : MonoBehaviour
     void Update()
     {
 
-
-        switch (variable) //
+        //interfaz
+        switch (variable) 
         {
             case GameManager.GameManagerVariables.TIME:
                 textComponent.text = "Time: " + GameManager.instance.GetTime().ToString("0.00"); // se añade el tostring para que devuelva una representacion de la barra de tiempo con solo dos decimales

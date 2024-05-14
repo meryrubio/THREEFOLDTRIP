@@ -13,6 +13,7 @@ namespace ThreefoldTrip
         
         public Astra(float speed, Rigidbody2D rb) : base(speed, rb, Resources.Load<Sprite>("sprites/Astra andando"), Resources.Load<AnimatorController>("sprites/animations/astra/Astra andando_0"))
         {
+            ////contructor de astra segun la estructura del character
         }
 
         public override void Skill()
