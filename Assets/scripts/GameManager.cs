@@ -76,7 +76,7 @@ public class GameManager : MonoBehaviour
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
-       /* AudioManager.instance.ClearAudios();*/ // oye, audioManager, limpia todos los sonidos que estan sonando
+        AudioManager.instance.ClearAudios(); // oye, audioManager, limpia todos los sonidos que estan sonando
     }
 
 

@@ -15,7 +15,7 @@ public class PlayAubio : MonoBehaviour
     {
         if (playOnGameStart) //la musica suene nada mas empezar
         {
-            //AudioManager.instance.PlayAudio(audioClip, gameObjectName, isLoop, volume);
+            AudioManager.instance.PlayAudio(audioClip, gameObjectName, isLoop, volume);
         }
     }
 }
