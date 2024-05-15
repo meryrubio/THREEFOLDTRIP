@@ -16,7 +16,7 @@ namespace ThreefoldTrip
         private AnimatorController _controller;
         private int currentJumps = 0;
         private Animator _animator;
-        //private BoxCollider2D bc;
+        
 
         protected Sprite _sprite;
         protected Rigidbody2D _rb;
@@ -81,10 +81,8 @@ namespace ThreefoldTrip
         {
             
             BoxCollider2D bc = _rb.GetComponent<BoxCollider2D>();
-            bc.size = new Vector2(bc.size.x, isCrouching ? bc.size.y / 2 : bc.size.y * 2);
-            //  _animator.SetBool("agachar", true);
+            bc.size = new Vector2(bc.size.x, isCrouching ? bc.size.y / 2 : bc.size.y * 2);           
             
-
         }
     }
 

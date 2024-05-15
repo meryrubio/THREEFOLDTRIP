@@ -65,15 +65,18 @@ public class CharacterManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W))
         {
             isJumping = true;
+            
         }
 
         if(Input.GetKeyDown(KeyCode.S))
         {
             character.Crouch(true);
+            animator.SetBool("isCrounch", true);
         }
         else if(Input.GetKeyUp(KeyCode.S))
         {
             character.Crouch(false);
+            animator.SetBool("isCrounch", false);
         }
 
     }
@@ -83,7 +86,12 @@ public class CharacterManager : MonoBehaviour
         character.Run();
 
         if (isJumping)
+        {
             character.Jump(transform);
+            animator.Play("Jump");
+        }
+            
+
         isJumping = false;
     }
     private void OnDrawGizmos()
