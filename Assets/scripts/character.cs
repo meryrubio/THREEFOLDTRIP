@@ -73,6 +73,10 @@ namespace ThreefoldTrip //crea un espacio de nombres para evitar la colision de 
         public AnimatorController GetAnimatorController() { return _controller; } //animaciones
 
         public abstract void Skill(); //habilidades de los personajes
+        //public virtual IEnumerator Habilidad(AudioSource wicthClip)
+        //{
+        //    yield return null;
+        //}
     }
 
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using ThreefoldTrip;
 using UnityEditor.Animations;
 using UnityEngine;
@@ -11,7 +12,9 @@ namespace ThreefoldTrip
     {
         public AudioClip wicthClip;
         public float timeScale;
-        private float maxTime = 4.75f, currentTime = 0;
+        private float maxTime = .25f, currentTime = 0;
+        private bool skillStarted;
+
         //public float Cooldown = 4;//tiempo que tarda en volver a poder utilizar la habilidad
         public float volume;
         AudioSource audioSource;
@@ -29,34 +32,27 @@ namespace ThreefoldTrip
         public override void Skill()
         {
             Debug.Log("soy nexus");
-
+            SlowTime(true);
             //StartCoroutine(PlayAudio(src));
-
-            IEnumerator PlayAudio(AudioSource wicthClip)
-            {
-
-                Time.timeScale = 0.25f;
-                while (wicthClip && wicthClip.isPlaying)
-                {
-                    yield return null;
-                }
-
-                Time.timeScale = 1f;
-            }
-            AudioSource src = AudioManager.instance.PlayAudio(wicthClip, "wicthSound");
         }
 
-
-
-
-        //Update is called once per frame
         public override void Update()
         {
-          
-           
-
-
+            if(skillStarted)
+            {
+                currentTime += Time.deltaTime;
+                if(currentTime >= maxTime)
+                {
+                    SlowTime(false);
+                    currentTime = 0;
+                }
+            }
         }
-       
+
+        private void SlowTime(bool hasStarted)
+        {
+            Time.timeScale = hasStarted ? 0.25f : 1;
+            skillStarted = hasStarted;
+        }
     }
 }
