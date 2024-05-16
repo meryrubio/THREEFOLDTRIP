@@ -8,38 +8,43 @@ namespace ThreefoldTrip
 {
     public class Astra : Character
     {
-        public KeyCode up,down;
-        private float maxTime = 4, currentTime = 0;
+        //public KeyCode up,down;
+        private float maxTime = 3, currentTime;
+        private float originGravity;
+        private Vector2 _dir;
         
         public Astra(float speed, Rigidbody2D rb) : base(speed, rb, Resources.Load<Sprite>("sprites/Astra andando"), Resources.Load<AnimatorController>("sprites/animations/astra/Astra andando_0"))
         {
+            originGravity = rb.gravityScale;
         }
 
         public override void Skill()
         {
+
             Debug.Log("Soy astra");
             _rb.gravityScale = 0f;
-            
-            //if (Input.GetKey(up))           //es para que astra pueda planear en el aire
+            currentTime = 0;
+
+            //if (Input.GetKey(KeyCode.W))           //es para que astra pueda planear en el aire
             //{
-                //_dir = new Vector2(0, -1);
-            
+            //_dir = new Vector2(0, -1);
+
             //}
-            //else if (Input.GetKey(down))
+            //else if (Input.GetKey(KeyCode.S))
             //{
 
-                //_dir = new Vector2(0, -1);
+            //_dir = new Vector2(0, -1);
             //}
         }
 
-        public void Update(Rigidbody2D rb)  //no es override por ahora al no tener nada en update
+        public override void Update()  //no es override por ahora al no tener nada en update
         {
-            if (rb.gravityScale == 0)
+            if (_rb.gravityScale == 0)
                 currentTime += Time.deltaTime;
 
             if (currentTime >= maxTime)
             {
-                rb.gravityScale = 1;
+                _rb.gravityScale = originGravity;
                 currentTime = 0;
             }
         }

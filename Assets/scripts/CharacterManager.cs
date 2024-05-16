@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class CharacterManager : MonoBehaviour
 {
     public float speed;
     public float RayDistance;
     public float JumpForce;
+    //public AudioClip crounch;
+
     private bool isJumping = false;
 
     protected ThreefoldTrip.Character character;
@@ -72,6 +75,7 @@ public class CharacterManager : MonoBehaviour
         {
             character.Crouch(true);
             animator.SetBool("isCrounch", true);
+            //AudioManager.instance.PlayAudio(crounch, "crounchSound");
         }
         else if(Input.GetKeyUp(KeyCode.S))
         {
