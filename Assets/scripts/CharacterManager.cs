@@ -20,6 +20,7 @@ public class CharacterManager : MonoBehaviour
     {
         rend = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        animator.SetBool("isCrounch", false);
 
         //programamos un if para elegir para la funcion del boton para elegir el personaje
         if (GameManager.instance.characterType == ThreeFoldCharacters.NEXUS)
