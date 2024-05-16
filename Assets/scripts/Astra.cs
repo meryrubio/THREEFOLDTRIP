@@ -25,12 +25,12 @@ namespace ThreefoldTrip
             _rb.gravityScale = 0f;
             currentTime = 0;
 
-            //if (Input.GetKey(KeyCode.W))           //es para que astra pueda planear en el aire
+            //if (Input.GetKey(up))           //es para que astra pueda planear en el aire
             //{
             //_dir = new Vector2(0, -1);
 
             //}
-            //else if (Input.GetKey(KeyCode.S))
+            //else if (Input.GetKey(down))
             //{
 
             //_dir = new Vector2(0, -1);
