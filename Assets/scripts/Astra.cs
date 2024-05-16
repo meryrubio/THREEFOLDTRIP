@@ -11,7 +11,7 @@ namespace ThreefoldTrip
         //public KeyCode up,down;
         private float maxTime = 3, currentTime;
         private float originGravity;
-        private Vector2 _dir;
+        //private Vector2 _dir;
         
         public Astra(float speed, Rigidbody2D rb) : base(speed, rb, Resources.Load<Sprite>("sprites/Astra andando"), Resources.Load<AnimatorController>("sprites/animations/astra/Astra andando_0"))
         {
