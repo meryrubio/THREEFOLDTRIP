@@ -58,7 +58,10 @@ public class GameManager : MonoBehaviour
         time = 0;
     }
 
-    // METODO DE SCORE*
+    public void IncreaseScore(int amount) // este metodo sirve para que los puntos puedan ir amuentando
+    {
+        points += amount;
+    }
 
     public int GetPoints()
     {
