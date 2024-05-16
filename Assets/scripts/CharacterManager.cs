@@ -8,6 +8,8 @@ public class CharacterManager : MonoBehaviour
     public float speed;
     public float RayDistance;
     public float JumpForce;
+    //public AudioClip crounch;
+
     private bool isJumping = false;
 
     protected ThreefoldTrip.Character character; //variable protejida para los personajes
@@ -67,6 +69,19 @@ public class CharacterManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W))
         {
             isJumping = true;
+            
+        }
+
+        if(Input.GetKeyDown(KeyCode.S))
+        {
+            character.Crouch(true);
+            animator.SetBool("isCrounch", true);
+            //AudioManager.instance.PlayAudio(crounch, "crounchSound");
+        }
+        else if(Input.GetKeyUp(KeyCode.S))
+        {
+            character.Crouch(false);
+            animator.SetBool("isCrounch", false);
         }
 
     }
@@ -76,7 +91,12 @@ public class CharacterManager : MonoBehaviour
         character.Run();
 
         if (isJumping)
+        {
             character.Jump(transform);
+            animator.Play("Jump");
+        }
+            
+
         isJumping = false;
     }
     private void OnDrawGizmos() //rayo del salto
@@ -85,4 +105,3 @@ public class CharacterManager : MonoBehaviour
         Gizmos.DrawRay(transform.position, Vector2.down * RayDistance);
     }
 }
-//

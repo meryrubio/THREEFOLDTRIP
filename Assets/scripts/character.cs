@@ -10,10 +10,12 @@ namespace ThreefoldTrip //crea un espacio de nombres para evitar la colision de 
     {
         public float speed, rayDistance, jumpForce;
         public int maxJump = 2;
+        public KeyCode downKey;
 
         private bool isJumping = false;
         private AnimatorController _controller;
         private int currentJumps = 0;
+        private Animator _animator;
         
 
         protected Sprite _sprite;
@@ -28,6 +30,7 @@ namespace ThreefoldTrip //crea un espacio de nombres para evitar la colision de 
             _rb = rb;
             _sprite = sprite;
             _controller = cont;
+
         }
 
         // this method should be called in FixedUpdate
@@ -72,11 +75,15 @@ namespace ThreefoldTrip //crea un espacio de nombres para evitar la colision de 
 
         public AnimatorController GetAnimatorController() { return _controller; } //animaciones
 
-        public abstract void Skill(); //habilidades de los personajes
-        //public virtual IEnumerator Habilidad(AudioSource wicthClip)
-        //{
-        //    yield return null;
-        //}
+        public abstract void Skill();
+
+        public void Crouch(bool isCrouching)
+        {
+            
+            BoxCollider2D bc = _rb.GetComponent<BoxCollider2D>();
+            bc.size = new Vector2(bc.size.x, isCrouching ? bc.size.y / 2 : bc.size.y * 2);           
+            
+        }
     }
 
 }
