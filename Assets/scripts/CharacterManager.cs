@@ -84,7 +84,7 @@ public class CharacterManager : MonoBehaviour
             character.Crouch(false);
             animator.SetBool("isCrounch", false);
         }
-
+        
     }
 
     private void FixedUpdate() //salto

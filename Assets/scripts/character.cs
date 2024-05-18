@@ -84,6 +84,7 @@ namespace ThreefoldTrip //crea un espacio de nombres para evitar la colision de 
             bc.size = new Vector2(bc.size.x, isCrouching ? bc.size.y / 2 : bc.size.y * 2);           
             
         }
+        
     }
 
 }
